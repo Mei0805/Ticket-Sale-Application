@@ -1,0 +1,113 @@
+
+
+#components-layout-demo-top-side-2 .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.ant-layout .site-layout-sub-header-background,
+.ant-layout .ant-layout-sider,
+.ant-layout .ant-menu,
+footer.ant-layout-footer {
+  background-color: #F9F6F4 ;
+}
+
+.ant-layout aside.ant-layout-sider{
+  min-width: 280px !important;
+  
+}
+
+.ant-layout aside.ant-layout-sider ul{
+  border: none;
+}
+
+.ant-layout-sider-children .ant-menu{
+  margin: 0 33px;
+  max-width: 252px;
+}
+
+/* .ant-menu :hover,
+.ant-menu li.ant-menu-item-selected,
+.ant-menu li:hover{
+  border-radius: 5px;
+  transition: none !important;
+  color: white;
+  background-color: #FFB800 !important;
+}
+
+.ant-menu li:hover + .ant-menu-item-icon{
+  color: white;
+} */
+
+.ant-menu > .ant-menu-item:hover,
+.ant-menu > .ant-menu-submenu:hover,
+.ant-menu > .ant-menu-item-active,
+.ant-menu> .ant-menu-submenu-active,
+.ant-menu > .ant-menu-item-open,
+.ant-menu> .ant-menu-submenu-open,
+.ant-menu > .ant-menu-item-selected,
+.ant-menu > .ant-menu-submenu-selected,
+.ant-menu-item-selected a, .ant-menu-item-selected a:hover
+.ant-menu-item-selected:hover{
+  color: white !important;
+  background-color:#FFB800  ;
+ 
+  /* border-right: 2px solid red; */
+}
+.ant-menu-item .ant-menu-item-icon, .ant-menu-submenu-title .ant-menu-item-icon, .ant-menu-item .anticon{
+  transition: none !important;
+  margin-right: 15px;
+}
+.ant-menu > .ant-menu-item-active a,
+.ant-menu > .ant-menu-item-active a anticon{
+  color: white !important;
+  transition: none;
+  transform: none;
+}
+.ant-menu > .ant-menu-item{
+  color: white;
+  border-radius: 8px;
+}
+.ant-menu-item-selected,
+.ant-menu >.ant-menu-submenu-active
+{
+  color: white;
+  border-radius: 8px;
+  background-color: #FFB800 !important;
+  
+}
+.ant-menu >.ant-menu-submenu-active .anticon,
+.ant-menu >.ant-menu-submenu-inline .ant-menu-title-content:hover,
+.ant-menu >.ant-menu-submenu-inline .ant-menu-submenu-arrow{
+  border-radius: 8px;
+}
+
+
+
+/*main*/
+main.ant-layout-content,
+main.ant-layout-content .site-layout-background {
+  margin: 0px 32px 0px 0px !important;
+  border-radius: 24px;
+  background: white !important;
+}
+
+#mainLayout{
+  background: #F9F6F4;
+}
+
+#mainLayout main.ant-layout-content{
+  padding: 24px;
+}
