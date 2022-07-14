@@ -7,7 +7,7 @@ import SideBar from './SideBar';
 import { Home } from '../Pages/Home';
 import { DoiSoatVe } from '../Pages/DoiSoatVe';
 import { GoiDichVu } from '../Pages/GoiDichvu';
-import { QuanLyVe } from '../Pages/QuanLyVe';
+import { DanhSachVe } from '../Pages/QuanLyVe';
 
 import './style.css'
 import 'antd/dist/antd.css';
@@ -26,7 +26,7 @@ function MainLayout() {
                         <Route path='/' element={<Home />} />
                         <Route path='/doisoat' element={<DoiSoatVe />} />
                         <Route path='/dichvu' element={<GoiDichVu />} />
-                        <Route path='/quanly' element={<QuanLyVe />} />
+                        <Route path='/quanly' element={<DanhSachVe />} />
                     </Routes>
                 </Content>
             </Layout>
