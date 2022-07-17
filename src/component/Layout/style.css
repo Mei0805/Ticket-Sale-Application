@@ -111,3 +111,58 @@ main.ant-layout-content .site-layout-background {
 #mainLayout main.ant-layout-content{
   padding: 24px;
 }
+
+/* Home.tsx */
+.goiVeContainer .ticketDesc{
+  display: flex;
+  flex-direction: column;
+}
+.goiVeContainer .ticketDesc .descColor{
+  width: 50px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.goiVeContainer .ticketDesc .desc{
+  display: flex;
+  gap: 1rem;
+}
+
+.goiVeContainer .ticketDesc #used{
+  background-color: #4F75FF;
+}
+
+.goiVeContainer .ticketDesc #unUsed{
+  background-color: #FF8A48;
+}
+.familyPieContainer,.eventPieContainer{
+  position: relative;
+}
+
+.number-desc{
+  width: 60px;
+  height: 35px;
+  padding: 5px;
+
+  border: 0.5px solid white;
+  background-color: white;
+  box-shadow: 2px 2px 2px #e1dede;
+  border-radius: 4px;
+  text-align: center;
+}
+
+#desc1, #desc3 {
+  position:absolute;
+  top: 100px;
+  left: -10px;
+}
+#desc2 {
+  position:absolute;
+  top: 19px;
+  right: 20px;
+}
+#desc4{
+  position:absolute;
+  top: 100px;
+  right: -10px;
+}
